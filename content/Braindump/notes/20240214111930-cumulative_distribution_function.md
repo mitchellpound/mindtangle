@@ -7,7 +7,9 @@ tags:
 # cumulative distribution function
 For a [[20240213222154-probability_space|probability space]]  $(\Omega, \mathcal{F}, P)$ and a [[20240213222818-random_variable|random variable]] $X:\Omega \to \mathbb{R}$ the cumulative distribution function is
 
-$$F_X(x) = P(X \leq x) = P(X^{-1}(-\infty, x)) $$ 
+$$
+F_X(x) = P(X \leq x) = P(X^{-1}(-\infty, x))
+$$ 
 using the [[20240214111633-distribution_of_random_variable|distribution of random variable]] $P(X)$. 
 
 # Properties
