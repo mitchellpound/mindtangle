@@ -28,7 +28,9 @@ For anything else inside those bounds (of the domain) we split each interval int
 $f(x)$ is defined as the left endpoint of the subinterval of the domian that it is found in.
 
 Formally this can be written as
-$$f(x) = \left\{ \begin{matrix} k & \text{if } f(x) > k \\
+$$
+f(x) = \left\{ \begin{matrix} k & \text{if } f(x) > k \\
 -k & \text{if } f(x) < -k  \\
 \frac{m}{2^k} & f(x) \in [\frac{m}{2^k}, \frac{m+1}{2^k}) \quad m \in 1, 2, \dots k
-\end{matrix} \right. $$
+\end{matrix} \right. 
+$$
