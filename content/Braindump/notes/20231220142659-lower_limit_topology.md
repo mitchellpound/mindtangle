@@ -5,4 +5,3 @@ tags:
   - definition
 ---
 # lower limit topology
-#definition

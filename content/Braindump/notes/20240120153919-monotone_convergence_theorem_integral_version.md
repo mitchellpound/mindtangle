@@ -38,11 +38,12 @@ $$A_i = X \cap A_i = \bigcup_{k=1}^\infty(E_k \cap A_i)$$
 This lets us use these in $\phi$
 
 
-$$\begin{split}
-
+$$
+\begin{split}
 f_k \geq f_k \chi_{E_k} \geq \alpha \phi \chi_{E_k} & = \alpha \sum c_i\chi_{A_i}\chi_{E_k}\\
  & = \alpha \sum c_i\chi_{A_i} \cap E_k
-\end{split}$$
+\end{split}
+$$
 
 We need these $E_k$ which is an increasing sequence of sets to move the limit inside the measure.
 Integrating the above gives

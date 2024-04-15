@@ -13,7 +13,9 @@ Instead of using partitions based on smaller closed intervals, it uses partition
 # Definition
 For a measure space $(X, \mathcal{S}, \mu)$, and a measurable function $f:X\to [0, \infty]$ the the Lebesgue integral (or integral with respect to a measure) is
 
-$$ \int f d\mu = \sup\{\mathcal{L}(f, P) | \text{P is an} \ \mathcal{S} \text{-partition of X}\}$$
+$$
+\int f d\mu = \sup\{\mathcal{L}(f, P) | \text{P is an} \ \mathcal{S} \text{-partition of X}\}
+$$
 
 Where $\mathcal{L}$ is the [[20240112110816-lower_lebesgue_sum|lower Lebesgue sum]] of $f$ on $P$.
 
@@ -21,7 +23,9 @@ Where $\mathcal{L}$ is the [[20240112110816-lower_lebesgue_sum|lower Lebesgue su
 Since the definition given only is defined for non-negative functions it would be pretty restrictive.
 However, we can split the function f into the negative and positive parts, thus for a general function
 
-$$\int f d\mu = \int f^+ d\mu - \int |f^-| d\mu $$
+$$
+\int f d\mu = \int f^+ d\mu - \int |f^-| d\mu
+$$
 
 Also, the Lebesgue integral can be found using a process of [[20231229165411-approximation_by_simple_functions|approximation by simple functions]].
 
@@ -29,8 +33,10 @@ Also, the Lebesgue integral can be found using a process of [[20231229165411-app
 ## Order preserving
 ## linear
 ## Absolute value
-$$\left| \int f d\mu \right| \leq \int |f| d\mu $$
+$$
+\left| \int f d\mu \right| \leq \int |f| d\mu
+$$
 
 # Links
-[[20240120122921-lebesgue_integrability|Lebesgue integrability]]
-[[20240120162824-integral_leaks|integral leaks]]
+- [[20240120122921-lebesgue_integrability|Lebesgue integrability]]
+- [[20240120162824-integral_leaks|integral leaks]]
