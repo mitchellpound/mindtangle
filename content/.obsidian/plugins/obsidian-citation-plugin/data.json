@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "@{{citekey}}",
+  "literatureNoteFolder": "Literature",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\ndraft: false\ntags:\n  - literature\n---\n# {{title}}\nauthors: {{authorString}}\nyear: {{year}}\n[See in Zotero]({{zoteroSelectURI}})\n\n# Literature Notes\n",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "/home/mit/home/mitch/library/Zotero/exported/references.bibch/braindump/Zotero/exported/references.bib"
+}
