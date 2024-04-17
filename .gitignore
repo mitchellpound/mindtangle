@@ -4,7 +4,7 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-.obsidian/themes
+.obsidian
 !.obsidian/plugins
 !.obsidian/community-plugins.json
 !.obsidian/core-plugins.json
