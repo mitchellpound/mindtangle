@@ -24,13 +24,39 @@
             }
           },
           {
+            "id": "eaf72e5a4538f21b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Braindump/notes/202404301514.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "134b980778b7ed8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/20231102212616-math.md",
-                "mode": "preview",
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eae0a0968129b265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Braindump/notes/202404301514.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -172,32 +198,32 @@
   },
   "active": "aa6abdefec284621",
   "lastOpenFiles": [
-    "Braindump/notes/20231102212616-math.md",
-    "Braindump/notes/202404021520.md",
+    "Braindump/notes/202404301514.md",
+    "Untitled.md",
+    "Braindump/notes/202404301504.md",
+    "Braindump/notes/202403121554.md",
+    "Braindump/notes/202404301434.md",
+    "Braindump/notes/202404301423.md",
+    "Braindump/notes/202404301418.md",
+    "Braindump/notes/202404301413.md",
+    "Braindump/notes/202404301428.md",
+    "Braindump/notes/202404301425.md",
+    "Templates/new_zettle.md",
+    "Braindump/notes/202404162353.md",
+    "Braindump/notes/Untitled.md",
+    "Braindump/notes/202404171515.md",
     "Braindump/notes/202404171121.md",
+    "Braindump/notes/202403291458.md",
+    "Braindump/notes/202404062124.md",
+    "Braindump/notes/20231102212616-math.md",
+    "Braindump/notes/20231222094747-differential_geometry.md",
+    "Braindump/notes/202404021520.md",
     "Braindump/notes/202404171126.md",
     "Braindump/notes/20240103134130-linear_algebra.md",
     "Braindump/notes/202404170019.md",
     "index.md",
-    "Braindump/notes/202404162353.md",
     "Braindump/notes/202404162325.md",
     "Braindump/notes/202404162335.md",
-    "Braindump/notes/202403151132.md",
-    "Braindump/notes/20231219170335-vitali_set.md",
-    "Braindump/notes/202404011135.md",
-    "Braindump/notes/202403092143.md",
-    "Braindump/notes/202306011747.md",
-    "Braindump/notes/202306210924.md",
-    "Braindump/notes/20230817214440-variational_free_energy.md",
-    "Braindump/notes/20230817214331-var_model.md",
-    "Braindump/notes/202305271508.md",
-    "Braindump/notes/202305261655.md",
-    "Braindump/notes/20240113171559-torus.md",
-    "Braindump/notes/20231222085107-topology_generated_by_basis.md",
-    "Braindump/notes/20231220133911-topology.md",
-    "Braindump/notes/202403052130.md",
-    "Braindump/notes/20231222084115-topological_basis.md",
-    "Braindump/notes/20240103134440-tensor_rank.md",
     "notes/Pasted image 20230616215727.png",
     "Templates",
     "Ideas/Pasted image 20230616215727.png",
