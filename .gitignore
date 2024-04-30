@@ -4,11 +4,11 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-.obsidian
-!.obsidian/plugins
-!.obsidian/community-plugins.json
-!.obsidian/core-plugins.json
-!.obsidian/core-plugins-migration.json
+content/.obsidian
+!content/.obsidian/plugins
+!content/.obsidian/community-plugins.json
+!content/.obsidian/core-plugins.json
+!content/.obsidian/core-plugins-migration.json
 private/
 .replit
 replit.nix
