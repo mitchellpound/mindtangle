@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "-path:index",
+  "collapse-filter": false,
+  "search": "-path:Braindump/Literature  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -32,6 +32,6 @@
   "repelStrength": 15,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.19887024926975497,
-  "close": false
+  "scale": 0.13258016617983648,
+  "close": true
 }

@@ -10,3 +10,4 @@ tags:
 - [[20231222094707-smooth_manifold|smooth manifold]]
 - [[202404061628|differential form]]
 - [[202403291458|exterior derivative]]
+- [[202405031211|Lie theory]]
