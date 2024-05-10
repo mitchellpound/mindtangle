@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-path:Braindump/Literature  ",
   "showTags": false,
   "showAttachments": false,
@@ -26,12 +26,12 @@
   "showArrow": false,
   "textFadeMultiplier": -1.7,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.37604166666667,
   "collapse-forces": false,
-  "centerStrength": 0.333333333333333,
-  "repelStrength": 15,
-  "linkStrength": 1,
-  "linkDistance": 250,
+  "centerStrength": 0.385416666666667,
+  "repelStrength": 13.0208333333333,
+  "linkStrength": 0.880208333333333,
+  "linkDistance": 184,
   "scale": 0.13258016617983648,
-  "close": true
+  "close": false
 }
