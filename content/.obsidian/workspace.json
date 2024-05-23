@@ -4,15 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "b62e163bb5e55030",
+        "id": "ef220cbc01fce8a3",
         "type": "tabs",
         "children": [
           {
-            "id": "f2019fd0ed4050b1",
+            "id": "5441f8501692c405",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Braindump/notes/202405231434.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "503e7be9486acae4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Braindump/notes/202405231437.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -54,14 +72,6 @@
             }
           },
           {
-            "id": "e98fb5c932b26a38",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "b3816b3a6986962d",
             "type": "leaf",
             "state": {
@@ -99,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Braindump/notes/202405231434.md"
+              }
             }
           },
           {
@@ -108,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Braindump/notes/202405231434.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Braindump/notes/202405231434.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,34 +162,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f2019fd0ed4050b1",
+  "active": "5441f8501692c405",
   "lastOpenFiles": [
-    "Braindump/notes/202405091601.md",
-    "Braindump/notes/202405081538.md",
-    "Braindump/notes/202405081440.md",
-    "Braindump/notes/202405091524.md",
-    "Braindump/notes/202405091423.md",
-    "Braindump/notes/202405081528.md",
-    "Braindump/notes/202403092121.md",
-    "Braindump/notes/202403061121.md",
+    "Braindump/notes/202405201029.md",
+    "Braindump/notes/202405231434.md",
+    "Braindump/notes/202405231437.md",
+    "Braindump/notes/202405231432.md",
     "Braindump/notes/202405091251.md",
-    "Braindump/notes/202405091419.md",
-    "Braindump/notes/202405031211.md",
-    "Braindump/notes/202405091602.md",
-    "Braindump/notes/202405091254.md",
-    "Braindump/notes/202403251440.md",
-    "Braindump/notes/202405031339.md",
-    "Braindump/notes/202405021637.md",
-    "Braindump/notes/202405091308.md",
-    "Braindump/notes/202405081514.md",
-    "Braindump/notes/202405081609.md",
-    "Braindump/notes/202405081540.md",
-    "Braindump/notes/202405081605.md",
-    "Braindump/notes/202405081613.md",
-    "Braindump/notes/202405081602.md",
-    "Braindump/notes/202403121552.md",
-    "Braindump/notes/202405081517.md",
-    "Braindump/notes/202405081415.md",
+    "Braindump/notes/202405062213.md",
+    "Braindump/notes/202405222353.md",
+    "Braindump/notes/202405231409.md",
+    "Braindump/notes/202405231352.md",
+    "Braindump/notes/202405081405.md",
+    "Braindump/notes/202404062124.md",
+    "Braindump/notes/202405231417.md",
+    "Braindump/notes/202405231344.md",
+    "Braindump/notes/202405231250.md",
+    "Braindump/notes/202405061454.md",
+    "Braindump/notes/202405231242.md",
+    "Braindump/notes/202405231236.md",
+    "Braindump/notes/202405231223.md",
+    "Braindump/notes/202405230022.md",
+    "Braindump/notes/202405230016.md",
+    "Braindump/notes/202403291458.md",
+    "Braindump/notes/202405171227.md",
+    "Braindump/notes/202405062209.md",
+    "Braindump/notes/202405222331.md",
+    "Braindump/notes/202405230013.md",
+    "Braindump/notes/202405222350.md",
     "notes/Pasted image 20230616215727.png",
     "Templates",
     "Ideas/Pasted image 20230616215727.png",
