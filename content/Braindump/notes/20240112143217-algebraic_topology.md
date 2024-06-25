@@ -7,3 +7,5 @@ tags:
 # algebraic topology
 
 Topology using algebraic structures like groups, rings, etc. to understand [[20231220133911-topology|topological spaces]]
+
+- [[202406180947|fundamental group]]
