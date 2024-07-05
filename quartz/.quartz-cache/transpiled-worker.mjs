@@ -2647,6 +2647,71 @@ var TableOfContents = /* @__PURE__ */ __name((userOpts) => {
 // quartz/plugins/transformers/linebreaks.ts
 import remarkBreaks from "remark-breaks";
 
+// quartz/plugins/transformers/tikz.ts
+import { visit as visit5 } from "unist-util-visit";
+var TikzTransformer = /* @__PURE__ */ __name(() => {
+  return {
+    name: "TikzTransformer",
+    markdownPlugins() {
+      return [() => {
+        return (tree, file) => {
+          visit5(tree, "code", (node) => {
+            if (node.lang === "tikz") {
+              const remove = "&nbsp;";
+              node.value = node.value.replaceAll(remove, "");
+              let lines = node.value.split("\n");
+              lines = lines.map((line) => line.trim());
+              lines = lines.filter((line) => line);
+              node.value = lines.join("\n");
+              node.type = "html";
+              node.value = `<script type="text/tikz"'>${node.value}</script>`;
+            }
+          });
+        };
+      }];
+    },
+    htmlPlugins() {
+      return [
+        () => {
+          return (tree, file) => {
+            visit5(tree, "element", (node, index, parent) => {
+              if (node.tagName === "script" && node.properties?.type === "text/tikz") {
+                if (node.type === "element" && node.tagName === "script" && node.properties.type === "text/tikz") {
+                  const divNode = {
+                    type: "element",
+                    tagName: "div",
+                    properties: { dangerouslySetInnerHTML: { __html: '<script type="text/tikz">'.concat(node.children[0].value, "</script>") } },
+                    children: []
+                  };
+                  parent.children[index] = divNode;
+                }
+              }
+            });
+            tree.children.unshift({
+              type: "element",
+              tagName: "script",
+              properties: {
+                src: "../../static/tikzjax.js"
+              },
+              children: []
+            });
+            tree.children.unshift({
+              type: "element",
+              tagName: "link",
+              properties: {
+                rel: "stylesheet",
+                type: "text/css",
+                href: "../../static/fonts.css"
+              },
+              children: []
+            });
+          };
+        }
+      ];
+    }
+  };
+}, "TikzTransformer");
+
 // quartz/plugins/filters/draft.ts
 var RemoveDrafts = /* @__PURE__ */ __name(() => ({
   name: "RemoveDrafts",
@@ -2658,7 +2723,7 @@ var RemoveDrafts = /* @__PURE__ */ __name(() => ({
 
 // quartz/plugins/emitters/contentPage.tsx
 import path6 from "path";
-import { visit as visit6 } from "unist-util-visit";
+import { visit as visit7 } from "unist-util-visit";
 
 // quartz/components/Header.tsx
 import { jsx } from "preact/jsx-runtime";
@@ -2723,7 +2788,7 @@ function JSResourceToScriptElement(resource, preserve) {
 __name(JSResourceToScriptElement, "JSResourceToScriptElement");
 
 // quartz/components/renderPage.tsx
-import { visit as visit5 } from "unist-util-visit";
+import { visit as visit6 } from "unist-util-visit";
 import { jsx as jsx4, jsxs } from "preact/jsx-runtime";
 var headerRegex = new RegExp(/h[1-6]/);
 function pageResources(baseDir, staticResources) {
@@ -2756,7 +2821,7 @@ function pageResources(baseDir, staticResources) {
 __name(pageResources, "pageResources");
 function renderPage(cfg, slug, componentData, components, pageResources2) {
   const root = clone(componentData.tree);
-  visit5(root, "element", (node, _index, _parent) => {
+  visit6(root, "element", (node, _index, _parent) => {
     if (node.tagName === "blockquote") {
       const classNames2 = node.properties?.className ?? [];
       if (classNames2.includes("transclude")) {
@@ -4082,7 +4147,14 @@ var defaultContentPageLayout = {
     DesktopOnly_default(Explorer_default())
   ],
   right: [
-    Graph_default(),
+    Graph_default({
+      localGraph: {
+        showTags: false
+      },
+      globalGraph: {
+        showTags: false
+      }
+    }),
     DesktopOnly_default(TableOfContents_default()),
     Backlinks_default()
   ]
@@ -4298,7 +4370,7 @@ var DepGraph = class {
 // quartz/plugins/emitters/contentPage.tsx
 var parseDependencies = /* @__PURE__ */ __name((argv, hast, file) => {
   const dependencies = [];
-  visit6(hast, "element", (elem) => {
+  visit7(hast, "element", (elem) => {
     let ref = null;
     if (["script", "img", "audio", "video", "source", "iframe"].includes(elem.tagName) && elem?.properties?.src) {
       ref = elem.properties.src.toString();
@@ -5159,7 +5231,7 @@ var config = {
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "Braindump/Templates", ".obsidian"],
+    ignorePatterns: ["private", "Templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
@@ -5211,7 +5283,8 @@ var config = {
       GitHubFlavoredMarkdown(),
       TableOfContents(),
       CrawlLinks({ markdownLinkResolution: "shortest" }),
-      Description()
+      Description(),
+      TikzTransformer()
     ],
     filters: [RemoveDrafts()],
     emitters: [
