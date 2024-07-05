@@ -37,8 +37,6 @@ export const TikzTransformer: QuartzTransformerPlugin = () => {
             // Change node to include raw HTML before parsing to JSX
             visit(tree, "element", (node, index, parent) => {
               if (node.tagName === "script" && node.properties?.type === "text/tikz") {
-
-                if (node.type === 'element' && node.tagName === 'script' && node.properties.type === 'text/tikz') {
                   const divNode = {
                     type: 'element',
                     tagName: 'div',
@@ -46,7 +44,6 @@ export const TikzTransformer: QuartzTransformerPlugin = () => {
                     children: []
                   };
                   parent.children[index] = divNode
-                }
               }
             })
 

@@ -2676,15 +2676,13 @@ var TikzTransformer = /* @__PURE__ */ __name(() => {
           return (tree, file) => {
             visit5(tree, "element", (node, index, parent) => {
               if (node.tagName === "script" && node.properties?.type === "text/tikz") {
-                if (node.type === "element" && node.tagName === "script" && node.properties.type === "text/tikz") {
-                  const divNode = {
-                    type: "element",
-                    tagName: "div",
-                    properties: { dangerouslySetInnerHTML: { __html: '<script type="text/tikz">'.concat(node.children[0].value, "</script>") } },
-                    children: []
-                  };
-                  parent.children[index] = divNode;
-                }
+                const divNode = {
+                  type: "element",
+                  tagName: "div",
+                  properties: { dangerouslySetInnerHTML: { __html: '<script type="text/tikz">'.concat(node.children[0].value, "</script>") } },
+                  children: []
+                };
+                parent.children[index] = divNode;
               }
             });
             tree.children.unshift({
