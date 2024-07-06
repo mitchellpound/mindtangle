@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2dba98dfc0388a3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202406282227.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9d7e55b8dae609b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/202406251308.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +21,7 @@
             }
           },
           {
-            "id": "1fb431940573f29d",
+            "id": "91fd64f0deb1025b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,22 +32,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2935e8392fc61e2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202406282241.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Braindump/notes/202406251308.md"
+                "file": "index.md"
               }
             }
           },
@@ -147,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Braindump/notes/202406251308.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Braindump/notes/202406251308.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,16 +164,18 @@
   },
   "active": "9d7e55b8dae609b6",
   "lastOpenFiles": [
-    "Braindump/notes/202404021520.md",
+    "banner.webp",
     "202406282251.md",
-    "202406282227.md",
     "202406282241.md",
+    "Braindump/notes/202406282227.md",
     "Braindump/notes/202406180947.md",
+    "202406241439.md",
+    "202406250734.md",
+    "Braindump/notes/202406251308.md",
+    "Braindump/notes/202404021520.md",
     "Braindump/notes/202406282205.md",
     "Braindump/notes/202404062124.md",
-    "202406250734.md",
     "202406151201.md",
-    "202406241439.md",
     "202406282200.md",
     "202406241432.md",
     "Braindump/notes/202406250731.md",
@@ -215,8 +190,6 @@
     "Braindump/notes/202403291458.md",
     "index.md",
     "Braindump/notes/202405222331.md",
-    "Braindump/notes/202405062209.md",
-    "Braindump/notes/202403092143.md",
     "notes/Pasted image 20230616215727.png",
     "Templates",
     "Ideas/Pasted image 20230616215727.png",

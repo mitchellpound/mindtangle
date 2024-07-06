@@ -2,6 +2,7 @@
 title: Welcome to My Brain (as it currently is recorded)
 ---
 
+![[banner.webp]]
 If you stumble across this somehow, welcome!
 This is a web page for my personal notes, thoughts, and ideas. All errors are mine, but if you don't like it, don't look at it. 
 
