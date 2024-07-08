@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202407061455.md",
+                "file": "Braindump/notes/202407080925.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "202407061455.md"
+                "file": "Braindump/notes/202407080925.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202407061455.md",
+                "file": "Braindump/notes/202407080925.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202407061455.md",
+                "file": "Braindump/notes/202407080925.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,8 +149,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "68e82194e5f619fd",
+  "active": "b9791d3d672873c6",
   "lastOpenFiles": [
+    "Braindump/notes/202407080928.md",
+    "Braindump/notes/202407080931.md",
+    "Braindump/notes/202407080925.md",
+    "Braindump/notes/202407080919.md",
+    "Braindump/notes/202407080913.md",
+    "Braindump/notes/202407080915.md",
+    "Braindump/notes/202403121554.md",
+    "202407061455.md",
+    "Braindump/notes/202404021520.md",
     "Braindump/notes/202406282205.md",
     "Braindump/notes/202406282227.md",
     "Braindump/notes/202406240803.md",
@@ -158,7 +167,6 @@
     "Braindump/notes/202404011123.md",
     "Braindump/notes/202403052139.md",
     "Braindump/notes/202307111057.md",
-    "202407061455.md",
     "Braindump/notes/202407061442.md",
     "Braindump/notes/202407060954.md",
     "Braindump/notes/202407060947.md",
@@ -169,15 +177,7 @@
     "Braindump/notes/202407060948.md",
     "Braindump/notes/202406282241.md",
     "Braindump/notes/202407052226.md",
-    "index.md",
-    "Braindump/notes/202406180947.md",
-    "Braindump/notes/20231222094707-smooth_manifold.md",
     "banner.webp",
-    "202406241439.md",
-    "202406250734.md",
-    "Braindump/notes/202406251308.md",
-    "Braindump/notes/202404021520.md",
-    "Braindump/notes/202404062124.md",
     "notes/Pasted image 20230616215727.png",
     "Templates",
     "Ideas/Pasted image 20230616215727.png",
