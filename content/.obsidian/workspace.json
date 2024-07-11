@@ -4,63 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d961a2a163f01c29",
+        "id": "11938983246e06d4",
         "type": "tabs",
         "children": [
           {
-            "id": "0a48ad5d3f68eadf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/202407061347.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f413885db0d4129",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/20231102212616-math.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c70f9aa0c7429375",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/202407101426.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "184b857eb8673414",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/202407101429.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37e9bda463157434",
+            "id": "d62510af4aaaeb5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,12 +21,12 @@
             }
           },
           {
-            "id": "543010bc89d27dd9",
+            "id": "9508e00b12c61eea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/202407101426.md",
+                "file": "Braindump/notes/202407111431.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +34,25 @@
             }
           },
           {
-            "id": "ec356d082a5bb37a",
+            "id": "b8d7d0dea1f294ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/202407100953.md",
+                "file": "202407111440.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df6302aded4b68bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "202407111440.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -176,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Braindump/notes/202407101426.md"
+                "file": "202407111440.md"
               }
             }
           },
@@ -186,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Braindump/notes/202407101426.md",
+                "file": "202407111440.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Braindump/notes/202407101426.md",
+                "file": "202407111440.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,19 +189,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "68e82194e5f619fd",
+  "active": "df6302aded4b68bf",
   "lastOpenFiles": [
+    "Braindump/notes/202407111431.md",
+    "Braindump/notes/202407111445.md",
+    "202407111440.md",
+    "Braindump/notes/202407101426.md",
+    "Braindump/notes/202407101431.md",
     "Braindump/notes/202407082223.md",
+    "Braindump/notes/202405031342.md",
     "Braindump/notes/202407110915.md",
     "Braindump/notes/202407100953.md",
     "Braindump/notes/202407101046.md",
     "Braindump/notes/202407110903.md",
-    "Braindump/notes/202407101431.md",
     "Braindump/notes/202407110830.md",
     "Braindump/notes/202407110845.md",
     "Braindump/notes/202407110827.md",
     "Braindump/notes/202407101429.md",
-    "Braindump/notes/202407101426.md",
     "Braindump/notes/20231102212616-math.md",
     "Braindump/notes/202407061347.md",
     "Braindump/notes/202407080925.md",
@@ -252,10 +217,6 @@
     "Braindump/notes/202407080950.md",
     "Braindump/notes/202407061455.md",
     "Braindump/notes/202403172230.md",
-    "Braindump/notes/202407081008.md",
-    "Braindump/notes/202407080928.md",
-    "Braindump/notes/202407080931.md",
-    "Braindump/notes/202407080919.md",
     "banner.webp",
     "notes/Pasted image 20230616215727.png",
     "Templates",
