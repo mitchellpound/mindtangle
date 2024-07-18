@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/202407121450.md",
+                "file": "Braindump/notes/202406170727.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51531816c7c50e4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Braindump/notes/202407172015.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eae9ced81dc41ad8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Braindump/notes/202407172026.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Braindump/notes/202407121450.md"
+                "file": "Braindump/notes/202406170727.md"
               }
             }
           },
@@ -107,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Braindump/notes/202407121450.md",
+                "file": "Braindump/notes/202406170727.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Braindump/notes/202407121450.md",
+                "file": "Braindump/notes/202406170727.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,11 +175,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "68e82194e5f619fd",
+  "active": "f6b7ad4332c86dc7",
   "lastOpenFiles": [
+    "202407172037.md",
+    "Braindump/notes/202407172026.md",
+    "Braindump/notes/202405081415.md",
+    "Braindump/notes/202407172015.md",
+    "Braindump/notes/202407101426.md",
+    "202406241439.md",
+    "Braindump/notes/202404021520.md",
+    "Braindump/notes/202407121450.md",
     "Braindump/Literature/@brocker2003.md",
     "Braindump/notes/202407111440.md",
-    "Braindump/notes/202407121450.md",
     "Braindump/notes/202406031350.md",
     "Braindump/notes/202407101431.md",
     "Braindump/notes/202407111431.md",
@@ -161,7 +194,6 @@
     "Braindump/notes/202405222331.md",
     "Braindump/notes/202403092121.md",
     "Braindump/notes/202407111445.md",
-    "Braindump/notes/202407101426.md",
     "Braindump/notes/202407082223.md",
     "Braindump/notes/202405031342.md",
     "Braindump/notes/202407110915.md",
@@ -171,12 +203,6 @@
     "Braindump/notes/202407110830.md",
     "Braindump/notes/202407110845.md",
     "Braindump/notes/202407110827.md",
-    "Braindump/notes/202407101429.md",
-    "Braindump/notes/20231102212616-math.md",
-    "Braindump/notes/202407061347.md",
-    "Braindump/notes/202407080925.md",
-    "Braindump/notes/202407100948.md",
-    "Braindump/notes/202407101115.md",
     "banner.webp",
     "notes/Pasted image 20230616215727.png",
     "Templates",
