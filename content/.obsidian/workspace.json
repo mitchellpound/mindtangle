@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/202406241427.md",
+                "file": "Braindump/notes/202404021520.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Braindump/notes/202406241427.md"
+                "file": "Braindump/notes/202404021520.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Braindump/notes/202406241427.md",
+                "file": "Braindump/notes/202404021520.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Braindump/notes/202406241427.md",
+                "file": "Braindump/notes/202404021520.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,17 +154,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "86524dff4a8e69ee",
   "lastOpenFiles": [
+    "Braindump/notes/202406241427.md",
     "Braindump/notes/202405231434.md",
     "Braindump/notes/202405231432.md",
     "Braindump/notes/202405231409.md",
@@ -190,7 +192,6 @@
     "Braindump/notes/202406031350.md",
     "Braindump/notes/202407101431.md",
     "Braindump/notes/202407111431.md",
-    "Braindump/notes/202405091524.md",
     "banner.webp",
     "notes/Pasted image 20230616215727.png",
     "Templates",
