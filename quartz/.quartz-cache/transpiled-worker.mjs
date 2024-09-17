@@ -227,10 +227,10 @@ var en_US_default = {
     },
     recentNotes: {
       title: "Recent Notes",
-      seeRemainingMore: ({ remaining }) => `See ${remaining} more \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `See ${remaining} more \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Transclude of ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Transclude of ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Link to original"
     },
     search: {
@@ -241,13 +241,13 @@ var en_US_default = {
       title: "Table of Contents"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} min read`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Recent notes",
-      lastFewNotes: ({ count }) => `Last ${count} notes`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `Last ${count} notes`, "lastFewNotes")
     },
     error: {
       title: "Not Found",
@@ -255,14 +255,14 @@ var en_US_default = {
     },
     folderContent: {
       folder: "Folder",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 item under this folder." : `${count} items under this folder.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 item under this folder." : `${count} items under this folder.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "Tag",
       tagIndex: "Tag Index",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 item with this tag." : `${count} items with this tag.`,
-      showingFirst: ({ count }) => `Showing first ${count} tags.`,
-      totalTags: ({ count }) => `Found ${count} total tags.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 item with this tag." : `${count} items with this tag.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Showing first ${count} tags.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `Found ${count} total tags.`, "totalTags")
     }
   }
 };
@@ -308,10 +308,10 @@ var fr_FR_default = {
     },
     recentNotes: {
       title: "Notes R\xE9centes",
-      seeRemainingMore: ({ remaining }) => `Voir ${remaining} de plus \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `Voir ${remaining} de plus \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Transclusion de ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Transclusion de ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Lien vers l'original"
     },
     search: {
@@ -322,13 +322,13 @@ var fr_FR_default = {
       title: "Table des Mati\xE8res"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min de lecture`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} min de lecture`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Notes r\xE9centes",
-      lastFewNotes: ({ count }) => `Les derni\xE8res ${count} notes`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `Les derni\xE8res ${count} notes`, "lastFewNotes")
     },
     error: {
       title: "Introuvable",
@@ -336,14 +336,14 @@ var fr_FR_default = {
     },
     folderContent: {
       folder: "Dossier",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 \xE9l\xE9ment sous ce dossier." : `${count} \xE9l\xE9ments sous ce dossier.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 \xE9l\xE9ment sous ce dossier." : `${count} \xE9l\xE9ments sous ce dossier.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "\xC9tiquette",
       tagIndex: "Index des \xE9tiquettes",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 \xE9l\xE9ment avec cette \xE9tiquette." : `${count} \xE9l\xE9ments avec cette \xE9tiquette.`,
-      showingFirst: ({ count }) => `Affichage des premi\xE8res ${count} \xE9tiquettes.`,
-      totalTags: ({ count }) => `Trouv\xE9 ${count} \xE9tiquettes au total.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 \xE9l\xE9ment avec cette \xE9tiquette." : `${count} \xE9l\xE9ments avec cette \xE9tiquette.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Affichage des premi\xE8res ${count} \xE9tiquettes.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `Trouv\xE9 ${count} \xE9tiquettes au total.`, "totalTags")
     }
   }
 };
@@ -389,10 +389,10 @@ var it_IT_default = {
     },
     recentNotes: {
       title: "Note recenti",
-      seeRemainingMore: ({ remaining }) => `Vedi ${remaining} altro \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `Vedi ${remaining} altro \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Transclusione di ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Transclusione di ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Link all'originale"
     },
     search: {
@@ -403,13 +403,13 @@ var it_IT_default = {
       title: "Tabella dei contenuti"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} minuti`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} minuti`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Note recenti",
-      lastFewNotes: ({ count }) => `Ultime ${count} note`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `Ultime ${count} note`, "lastFewNotes")
     },
     error: {
       title: "Non trovato",
@@ -417,14 +417,14 @@ var it_IT_default = {
     },
     folderContent: {
       folder: "Cartella",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 oggetto in questa cartella." : `${count} oggetti in questa cartella.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 oggetto in questa cartella." : `${count} oggetti in questa cartella.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "Etichetta",
       tagIndex: "Indice etichette",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 oggetto con questa etichetta." : `${count} oggetti con questa etichetta.`,
-      showingFirst: ({ count }) => `Prime ${count} etichette.`,
-      totalTags: ({ count }) => `Trovate ${count} etichette totali.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 oggetto con questa etichetta." : `${count} oggetti con questa etichetta.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Prime ${count} etichette.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `Trovate ${count} etichette totali.`, "totalTags")
     }
   }
 };
@@ -470,10 +470,10 @@ var ja_JP_default = {
     },
     recentNotes: {
       title: "\u6700\u8FD1\u306E\u8A18\u4E8B",
-      seeRemainingMore: ({ remaining }) => `\u3055\u3089\u306B${remaining}\u4EF6 \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `\u3055\u3089\u306B${remaining}\u4EF6 \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `${targetSlug}\u306E\u307E\u3068\u3081`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `${targetSlug}\u306E\u307E\u3068\u3081`, "transcludeOf"),
       linkToOriginal: "\u5143\u8A18\u4E8B\u3078\u306E\u30EA\u30F3\u30AF"
     },
     search: {
@@ -484,13 +484,13 @@ var ja_JP_default = {
       title: "\u76EE\u6B21"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} min read`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "\u6700\u8FD1\u306E\u8A18\u4E8B",
-      lastFewNotes: ({ count }) => `\u6700\u65B0\u306E${count}\u4EF6`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `\u6700\u65B0\u306E${count}\u4EF6`, "lastFewNotes")
     },
     error: {
       title: "Not Found",
@@ -498,14 +498,14 @@ var ja_JP_default = {
     },
     folderContent: {
       folder: "\u30D5\u30A9\u30EB\u30C0",
-      itemsUnderFolder: ({ count }) => `${count}\u4EF6\u306E\u30DA\u30FC\u30B8`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => `${count}\u4EF6\u306E\u30DA\u30FC\u30B8`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "\u30BF\u30B0",
       tagIndex: "\u30BF\u30B0\u4E00\u89A7",
-      itemsUnderTag: ({ count }) => `${count}\u4EF6\u306E\u30DA\u30FC\u30B8`,
-      showingFirst: ({ count }) => `\u306E\u3046\u3061\u6700\u521D\u306E${count}\u4EF6\u3092\u8868\u793A\u3057\u3066\u3044\u307E\u3059`,
-      totalTags: ({ count }) => `\u5168${count}\u500B\u306E\u30BF\u30B0\u3092\u8868\u793A\u4E2D`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => `${count}\u4EF6\u306E\u30DA\u30FC\u30B8`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `\u306E\u3046\u3061\u6700\u521D\u306E${count}\u4EF6\u3092\u8868\u793A\u3057\u3066\u3044\u307E\u3059`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `\u5168${count}\u500B\u306E\u30BF\u30B0\u3092\u8868\u793A\u4E2D`, "totalTags")
     }
   }
 };
@@ -551,10 +551,10 @@ var de_DE_default = {
     },
     recentNotes: {
       title: "Zuletzt bearbeitete Seiten",
-      seeRemainingMore: ({ remaining }) => `${remaining} weitere ansehen \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `${remaining} weitere ansehen \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Transklusion von ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Transklusion von ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Link zum Original"
     },
     search: {
@@ -565,13 +565,13 @@ var de_DE_default = {
       title: "Inhaltsverzeichnis"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} min read`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Zuletzt bearbeitete Seiten",
-      lastFewNotes: ({ count }) => `Letzte ${count} Seiten`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `Letzte ${count} Seiten`, "lastFewNotes")
     },
     error: {
       title: "Nicht gefunden",
@@ -579,14 +579,14 @@ var de_DE_default = {
     },
     folderContent: {
       folder: "Ordner",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 Datei in diesem Ordner." : `${count} Dateien in diesem Ordner.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 Datei in diesem Ordner." : `${count} Dateien in diesem Ordner.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "Tag",
       tagIndex: "Tag-\xDCbersicht",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 Datei mit diesem Tag." : `${count} Dateien mit diesem Tag.`,
-      showingFirst: ({ count }) => `Die ersten ${count} Tags werden angezeigt.`,
-      totalTags: ({ count }) => `${count} Tags insgesamt.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 Datei mit diesem Tag." : `${count} Dateien mit diesem Tag.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Die ersten ${count} Tags werden angezeigt.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `${count} Tags insgesamt.`, "totalTags")
     }
   }
 };
@@ -632,10 +632,10 @@ var nl_NL_default = {
     },
     recentNotes: {
       title: "Recente notities",
-      seeRemainingMore: ({ remaining }) => `Zie ${remaining} meer \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `Zie ${remaining} meer \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Invoeging van ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Invoeging van ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Link naar origineel"
     },
     search: {
@@ -646,13 +646,13 @@ var nl_NL_default = {
       title: "Inhoudsopgave"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => minutes === 1 ? "1 minuut leestijd" : `${minutes} minuten leestijd`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => minutes === 1 ? "1 minuut leestijd" : `${minutes} minuten leestijd`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Recente notities",
-      lastFewNotes: ({ count }) => `Laatste ${count} notities`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `Laatste ${count} notities`, "lastFewNotes")
     },
     error: {
       title: "Niet gevonden",
@@ -660,14 +660,14 @@ var nl_NL_default = {
     },
     folderContent: {
       folder: "Map",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 item in deze map." : `${count} items in deze map.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 item in deze map." : `${count} items in deze map.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "Label",
       tagIndex: "Label-index",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 item met dit label." : `${count} items met dit label.`,
-      showingFirst: ({ count }) => count === 1 ? "Eerste label tonen." : `Eerste ${count} labels tonen.`,
-      totalTags: ({ count }) => `${count} labels gevonden.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 item met dit label." : `${count} items met dit label.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => count === 1 ? "Eerste label tonen." : `Eerste ${count} labels tonen.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `${count} labels gevonden.`, "totalTags")
     }
   }
 };
@@ -713,10 +713,10 @@ var ro_RO_default = {
     },
     recentNotes: {
       title: "Noti\u021Be recente",
-      seeRemainingMore: ({ remaining }) => `Vezi \xEEnc\u0103 ${remaining} \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `Vezi \xEEnc\u0103 ${remaining} \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Extras din ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Extras din ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Leg\u0103tur\u0103 c\u0103tre original"
     },
     search: {
@@ -727,13 +727,13 @@ var ro_RO_default = {
       title: "Cuprins"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => minutes == 1 ? `lectur\u0103 de 1 minut` : `lectur\u0103 de ${minutes} minute`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => minutes == 1 ? `lectur\u0103 de 1 minut` : `lectur\u0103 de ${minutes} minute`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Noti\u021Be recente",
-      lastFewNotes: ({ count }) => `Ultimele ${count} noti\u021Be`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `Ultimele ${count} noti\u021Be`, "lastFewNotes")
     },
     error: {
       title: "Pagina nu a fost g\u0103sit\u0103",
@@ -741,14 +741,14 @@ var ro_RO_default = {
     },
     folderContent: {
       folder: "Dosar",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 articol \xEEn acest dosar." : `${count} elemente \xEEn acest dosar.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 articol \xEEn acest dosar." : `${count} elemente \xEEn acest dosar.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "Etichet\u0103",
       tagIndex: "Indexul etichetelor",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 articol cu aceast\u0103 etichet\u0103." : `${count} articole cu aceast\u0103 etichet\u0103.`,
-      showingFirst: ({ count }) => `Se afi\u0219eaz\u0103 primele ${count} etichete.`,
-      totalTags: ({ count }) => `Au fost g\u0103site ${count} etichete \xEEn total.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 articol cu aceast\u0103 etichet\u0103." : `${count} articole cu aceast\u0103 etichet\u0103.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Se afi\u0219eaz\u0103 primele ${count} etichete.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `Au fost g\u0103site ${count} etichete \xEEn total.`, "totalTags")
     }
   }
 };
@@ -794,10 +794,10 @@ var es_ES_default = {
     },
     recentNotes: {
       title: "Notas Recientes",
-      seeRemainingMore: ({ remaining }) => `Vea ${remaining} m\xE1s \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `Vea ${remaining} m\xE1s \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Transcluido de ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Transcluido de ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Enlace al original"
     },
     search: {
@@ -808,13 +808,13 @@ var es_ES_default = {
       title: "Tabla de Contenidos"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} min read`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Notas recientes",
-      lastFewNotes: ({ count }) => `\xDAltim\xE1s ${count} notas`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `\xDAltim\xE1s ${count} notas`, "lastFewNotes")
     },
     error: {
       title: "No se encontr\xF3.",
@@ -822,14 +822,14 @@ var es_ES_default = {
     },
     folderContent: {
       folder: "Carpeta",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 art\xEDculo en esta carpeta." : `${count} art\xEDculos en esta carpeta.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 art\xEDculo en esta carpeta." : `${count} art\xEDculos en esta carpeta.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "Etiqueta",
       tagIndex: "\xCDndice de Etiquetas",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 art\xEDculo con esta etiqueta." : `${count} art\xEDculos con esta etiqueta.`,
-      showingFirst: ({ count }) => `Mostrando las primeras ${count} etiquetas.`,
-      totalTags: ({ count }) => `Se encontraron ${count} etiquetas en total.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 art\xEDculo con esta etiqueta." : `${count} art\xEDculos con esta etiqueta.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Mostrando las primeras ${count} etiquetas.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `Se encontraron ${count} etiquetas en total.`, "totalTags")
     }
   }
 };
@@ -875,10 +875,10 @@ var ar_SA_default = {
     },
     recentNotes: {
       title: "\u0622\u062E\u0631 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A",
-      seeRemainingMore: ({ remaining }) => `\u062A\u0635\u0641\u062D ${remaining} \u0623\u0643\u062B\u0631 \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `\u062A\u0635\u0641\u062D ${remaining} \u0623\u0643\u062B\u0631 \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `\u0645\u0642\u062A\u0628\u0633 \u0645\u0646 ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `\u0645\u0642\u062A\u0628\u0633 \u0645\u0646 ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "\u0648\u0635\u0644\u0629 \u0644\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0627\u0644\u0631\u0626\u064A\u0633\u0629"
     },
     search: {
@@ -889,13 +889,13 @@ var ar_SA_default = {
       title: "\u0641\u0647\u0631\u0633 \u0627\u0644\u0645\u062D\u062A\u0648\u064A\u0627\u062A"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => minutes == 1 ? `\u062F\u0642\u064A\u0642\u0629 \u0623\u0648 \u0623\u0642\u0644 \u0644\u0644\u0642\u0631\u0627\u0621\u0629` : minutes == 2 ? `\u062F\u0642\u064A\u0642\u062A\u0627\u0646 \u0644\u0644\u0642\u0631\u0627\u0621\u0629` : `${minutes} \u062F\u0642\u0627\u0626\u0642 \u0644\u0644\u0642\u0631\u0627\u0621\u0629`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => minutes == 1 ? `\u062F\u0642\u064A\u0642\u0629 \u0623\u0648 \u0623\u0642\u0644 \u0644\u0644\u0642\u0631\u0627\u0621\u0629` : minutes == 2 ? `\u062F\u0642\u064A\u0642\u062A\u0627\u0646 \u0644\u0644\u0642\u0631\u0627\u0621\u0629` : `${minutes} \u062F\u0642\u0627\u0626\u0642 \u0644\u0644\u0642\u0631\u0627\u0621\u0629`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "\u0622\u062E\u0631 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A",
-      lastFewNotes: ({ count }) => `\u0622\u062E\u0631 ${count} \u0645\u0644\u0627\u062D\u0638\u0629`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `\u0622\u062E\u0631 ${count} \u0645\u0644\u0627\u062D\u0638\u0629`, "lastFewNotes")
     },
     error: {
       title: "\u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F",
@@ -903,14 +903,14 @@ var ar_SA_default = {
     },
     folderContent: {
       folder: "\u0645\u062C\u0644\u062F",
-      itemsUnderFolder: ({ count }) => count === 1 ? "\u064A\u0648\u062C\u062F \u0639\u0646\u0635\u0631 \u0648\u0627\u062D\u062F \u0641\u0642\u0637 \u062A\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u0645\u062C\u0644\u062F" : `\u064A\u0648\u062C\u062F ${count} \u0639\u0646\u0627\u0635\u0631 \u062A\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u0645\u062C\u0644\u062F.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "\u064A\u0648\u062C\u062F \u0639\u0646\u0635\u0631 \u0648\u0627\u062D\u062F \u0641\u0642\u0637 \u062A\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u0645\u062C\u0644\u062F" : `\u064A\u0648\u062C\u062F ${count} \u0639\u0646\u0627\u0635\u0631 \u062A\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u0645\u062C\u0644\u062F.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "\u0627\u0644\u0648\u0633\u0645",
       tagIndex: "\u0645\u0624\u0634\u0631 \u0627\u0644\u0648\u0633\u0645",
-      itemsUnderTag: ({ count }) => count === 1 ? "\u064A\u0648\u062C\u062F \u0639\u0646\u0635\u0631 \u0648\u0627\u062D\u062F \u0641\u0642\u0637 \u062A\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u0648\u0633\u0645" : `\u064A\u0648\u062C\u062F ${count} \u0639\u0646\u0627\u0635\u0631 \u062A\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u0648\u0633\u0645.`,
-      showingFirst: ({ count }) => `\u0625\u0638\u0647\u0627\u0631 \u0623\u0648\u0644 ${count} \u0623\u0648\u0633\u0645\u0629.`,
-      totalTags: ({ count }) => `\u064A\u0648\u062C\u062F ${count} \u0623\u0648\u0633\u0645\u0629.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "\u064A\u0648\u062C\u062F \u0639\u0646\u0635\u0631 \u0648\u0627\u062D\u062F \u0641\u0642\u0637 \u062A\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u0648\u0633\u0645" : `\u064A\u0648\u062C\u062F ${count} \u0639\u0646\u0627\u0635\u0631 \u062A\u062D\u062A \u0647\u0630\u0627 \u0627\u0644\u0648\u0633\u0645.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `\u0625\u0638\u0647\u0627\u0631 \u0623\u0648\u0644 ${count} \u0623\u0648\u0633\u0645\u0629.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `\u064A\u0648\u062C\u062F ${count} \u0623\u0648\u0633\u0645\u0629.`, "totalTags")
     }
   }
 };
@@ -956,10 +956,10 @@ var uk_UA_default = {
     },
     recentNotes: {
       title: "\u041E\u0441\u0442\u0430\u043D\u043D\u0456 \u043D\u043E\u0442\u0430\u0442\u043A\u0438",
-      seeRemainingMore: ({ remaining }) => `\u041F\u0435\u0440\u0435\u0433\u043B\u044F\u043D\u0443\u0442\u0438 \u0449\u0435 ${remaining} \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `\u041F\u0435\u0440\u0435\u0433\u043B\u044F\u043D\u0443\u0442\u0438 \u0449\u0435 ${remaining} \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `\u0412\u0438\u0434\u043E\u0431\u0443\u0442\u043E \u0437 ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `\u0412\u0438\u0434\u043E\u0431\u0443\u0442\u043E \u0437 ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "\u041F\u043E\u0441\u0438\u043B\u0430\u043D\u043D\u044F \u043D\u0430 \u043E\u0440\u0438\u0433\u0456\u043D\u0430\u043B"
     },
     search: {
@@ -970,13 +970,13 @@ var uk_UA_default = {
       title: "\u0417\u043C\u0456\u0441\u0442"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} min read`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "\u041E\u0441\u0442\u0430\u043D\u043D\u0456 \u043D\u043E\u0442\u0430\u0442\u043A\u0438",
-      lastFewNotes: ({ count }) => `\u041E\u0441\u0442\u0430\u043D\u043D\u0456 \u043D\u043E\u0442\u0430\u0442\u043A\u0438: ${count}`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `\u041E\u0441\u0442\u0430\u043D\u043D\u0456 \u043D\u043E\u0442\u0430\u0442\u043A\u0438: ${count}`, "lastFewNotes")
     },
     error: {
       title: "\u041D\u0435 \u0437\u043D\u0430\u0439\u0434\u0435\u043D\u043E",
@@ -984,14 +984,14 @@ var uk_UA_default = {
     },
     folderContent: {
       folder: "\u041F\u0430\u043F\u043A\u0430",
-      itemsUnderFolder: ({ count }) => count === 1 ? "\u0423 \u0446\u0456\u0439 \u043F\u0430\u043F\u0446\u0456 1 \u0435\u043B\u0435\u043C\u0435\u043D\u0442." : `\u0415\u043B\u0435\u043C\u0435\u043D\u0442\u0456\u0432 \u0443 \u0446\u0456\u0439 \u043F\u0430\u043F\u0446\u0456: ${count}.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "\u0423 \u0446\u0456\u0439 \u043F\u0430\u043F\u0446\u0456 1 \u0435\u043B\u0435\u043C\u0435\u043D\u0442." : `\u0415\u043B\u0435\u043C\u0435\u043D\u0442\u0456\u0432 \u0443 \u0446\u0456\u0439 \u043F\u0430\u043F\u0446\u0456: ${count}.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "\u0422\u0435\u0433",
       tagIndex: "\u0406\u043D\u0434\u0435\u043A\u0441 \u0442\u0435\u0433\u0443",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 \u0435\u043B\u0435\u043C\u0435\u043D\u0442 \u0437 \u0446\u0438\u043C \u0442\u0435\u0433\u043E\u043C." : `\u0415\u043B\u0435\u043C\u0435\u043D\u0442\u0456\u0432 \u0437 \u0446\u0438\u043C \u0442\u0435\u0433\u043E\u043C: ${count}.`,
-      showingFirst: ({ count }) => `\u041F\u043E\u043A\u0430\u0437 \u043F\u0435\u0440\u0448\u0438\u0445 ${count} \u0442\u0435\u0433\u0456\u0432.`,
-      totalTags: ({ count }) => `\u0412\u0441\u044C\u043E\u0433\u043E \u0437\u043D\u0430\u0439\u0434\u0435\u043D\u043E \u0442\u0435\u0433\u0456\u0432: ${count}.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 \u0435\u043B\u0435\u043C\u0435\u043D\u0442 \u0437 \u0446\u0438\u043C \u0442\u0435\u0433\u043E\u043C." : `\u0415\u043B\u0435\u043C\u0435\u043D\u0442\u0456\u0432 \u0437 \u0446\u0438\u043C \u0442\u0435\u0433\u043E\u043C: ${count}.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `\u041F\u043E\u043A\u0430\u0437 \u043F\u0435\u0440\u0448\u0438\u0445 ${count} \u0442\u0435\u0433\u0456\u0432.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `\u0412\u0441\u044C\u043E\u0433\u043E \u0437\u043D\u0430\u0439\u0434\u0435\u043D\u043E \u0442\u0435\u0433\u0456\u0432: ${count}.`, "totalTags")
     }
   }
 };
@@ -1037,10 +1037,10 @@ var ru_RU_default = {
     },
     recentNotes: {
       title: "\u041D\u0435\u0434\u0430\u0432\u043D\u0438\u0435 \u0437\u0430\u043C\u0435\u0442\u043A\u0438",
-      seeRemainingMore: ({ remaining }) => `\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043E\u0441\u0442\u0430\u0432\u0448${getForm(remaining, "\u0443\u044E\u0441\u044F", "\u0438\u0435\u0441\u044F", "\u0438\u0435\u0441\u044F")} ${remaining} \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043E\u0441\u0442\u0430\u0432\u0448${getForm(remaining, "\u0443\u044E\u0441\u044F", "\u0438\u0435\u0441\u044F", "\u0438\u0435\u0441\u044F")} ${remaining} \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `\u041F\u0435\u0440\u0435\u0445\u043E\u0434 \u0438\u0437 ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `\u041F\u0435\u0440\u0435\u0445\u043E\u0434 \u0438\u0437 ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "\u0421\u0441\u044B\u043B\u043A\u0430 \u043D\u0430 \u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B"
     },
     search: {
@@ -1051,13 +1051,13 @@ var ru_RU_default = {
       title: "\u041E\u0433\u043B\u0430\u0432\u043B\u0435\u043D\u0438\u0435"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `\u0432\u0440\u0435\u043C\u044F \u0447\u0442\u0435\u043D\u0438\u044F ~${minutes} \u043C\u0438\u043D.`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `\u0432\u0440\u0435\u043C\u044F \u0447\u0442\u0435\u043D\u0438\u044F ~${minutes} \u043C\u0438\u043D.`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "\u041D\u0435\u0434\u0430\u0432\u043D\u0438\u0435 \u0437\u0430\u043C\u0435\u0442\u043A\u0438",
-      lastFewNotes: ({ count }) => `\u041F\u043E\u0441\u043B\u0435\u0434\u043D${getForm(count, "\u044F\u044F", "\u0438\u0435", "\u0438\u0435")} ${count} \u0437\u0430\u043C\u0435\u0442${getForm(count, "\u043A\u0430", "\u043A\u0438", "\u043E\u043A")}`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `\u041F\u043E\u0441\u043B\u0435\u0434\u043D${getForm(count, "\u044F\u044F", "\u0438\u0435", "\u0438\u0435")} ${count} \u0437\u0430\u043C\u0435\u0442${getForm(count, "\u043A\u0430", "\u043A\u0438", "\u043E\u043A")}`, "lastFewNotes")
     },
     error: {
       title: "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430",
@@ -1065,26 +1065,23 @@ var ru_RU_default = {
     },
     folderContent: {
       folder: "\u041F\u0430\u043F\u043A\u0430",
-      itemsUnderFolder: ({ count }) => `\u0432 \u044D\u0442\u043E\u0439 \u043F\u0430\u043F\u043A\u0435 ${count} \u044D\u043B\u0435\u043C\u0435\u043D\u0442${getForm(count, "", "\u0430", "\u043E\u0432")}`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => `\u0432 \u044D\u0442\u043E\u0439 \u043F\u0430\u043F\u043A\u0435 ${count} \u044D\u043B\u0435\u043C\u0435\u043D\u0442${getForm(count, "", "\u0430", "\u043E\u0432")}`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "\u0422\u0435\u0433",
       tagIndex: "\u0418\u043D\u0434\u0435\u043A\u0441 \u0442\u0435\u0433\u043E\u0432",
-      itemsUnderTag: ({ count }) => `\u0441 \u044D\u0442\u0438\u043C \u0442\u0435\u0433\u043E\u043C ${count} \u044D\u043B\u0435\u043C\u0435\u043D\u0442${getForm(count, "", "\u0430", "\u043E\u0432")}`,
-      showingFirst: ({ count }) => `\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430${getForm(count, "\u0435\u0442\u0441\u044F", "\u044E\u0442\u0441\u044F", "\u044E\u0442\u0441\u044F")} ${count} \u0442\u0435\u0433${getForm(count, "", "\u0430", "\u043E\u0432")}`,
-      totalTags: ({ count }) => `\u0412\u0441\u0435\u0433\u043E ${count} \u0442\u0435\u0433${getForm(count, "", "\u0430", "\u043E\u0432")}`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => `\u0441 \u044D\u0442\u0438\u043C \u0442\u0435\u0433\u043E\u043C ${count} \u044D\u043B\u0435\u043C\u0435\u043D\u0442${getForm(count, "", "\u0430", "\u043E\u0432")}`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430${getForm(count, "\u0435\u0442\u0441\u044F", "\u044E\u0442\u0441\u044F", "\u044E\u0442\u0441\u044F")} ${count} \u0442\u0435\u0433${getForm(count, "", "\u0430", "\u043E\u0432")}`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `\u0412\u0441\u0435\u0433\u043E ${count} \u0442\u0435\u0433${getForm(count, "", "\u0430", "\u043E\u0432")}`, "totalTags")
     }
   }
 };
 function getForm(number, form1, form2, form5) {
   const remainder100 = number % 100;
   const remainder10 = remainder100 % 10;
-  if (remainder100 >= 10 && remainder100 <= 20)
-    return form5;
-  if (remainder10 > 1 && remainder10 < 5)
-    return form2;
-  if (remainder10 == 1)
-    return form1;
+  if (remainder100 >= 10 && remainder100 <= 20) return form5;
+  if (remainder10 > 1 && remainder10 < 5) return form2;
+  if (remainder10 == 1) return form1;
   return form5;
 }
 __name(getForm, "getForm");
@@ -1130,10 +1127,10 @@ var ko_KR_default = {
     },
     recentNotes: {
       title: "\uCD5C\uADFC \uAC8C\uC2DC\uAE00",
-      seeRemainingMore: ({ remaining }) => `${remaining}\uAC74 \uB354\uBCF4\uAE30 \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `${remaining}\uAC74 \uB354\uBCF4\uAE30 \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `${targetSlug}\uC758 \uD3EC\uD568`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `${targetSlug}\uC758 \uD3EC\uD568`, "transcludeOf"),
       linkToOriginal: "\uC6D0\uBCF8 \uB9C1\uD06C"
     },
     search: {
@@ -1144,13 +1141,13 @@ var ko_KR_default = {
       title: "\uBAA9\uCC28"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} min read`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "\uCD5C\uADFC \uAC8C\uC2DC\uAE00",
-      lastFewNotes: ({ count }) => `\uCD5C\uADFC ${count} \uAC74`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `\uCD5C\uADFC ${count} \uAC74`, "lastFewNotes")
     },
     error: {
       title: "Not Found",
@@ -1158,14 +1155,14 @@ var ko_KR_default = {
     },
     folderContent: {
       folder: "\uD3F4\uB354",
-      itemsUnderFolder: ({ count }) => `${count}\uAC74\uC758 \uD56D\uBAA9`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => `${count}\uAC74\uC758 \uD56D\uBAA9`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "\uD0DC\uADF8",
       tagIndex: "\uD0DC\uADF8 \uBAA9\uB85D",
-      itemsUnderTag: ({ count }) => `${count}\uAC74\uC758 \uD56D\uBAA9`,
-      showingFirst: ({ count }) => `\uCC98\uC74C ${count}\uAC1C\uC758 \uD0DC\uADF8`,
-      totalTags: ({ count }) => `\uCD1D ${count}\uAC1C\uC758 \uD0DC\uADF8\uB97C \uCC3E\uC558\uC2B5\uB2C8\uB2E4.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => `${count}\uAC74\uC758 \uD56D\uBAA9`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `\uCC98\uC74C ${count}\uAC1C\uC758 \uD0DC\uADF8`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `\uCD1D ${count}\uAC1C\uC758 \uD0DC\uADF8\uB97C \uCC3E\uC558\uC2B5\uB2C8\uB2E4.`, "totalTags")
     }
   }
 };
@@ -1211,10 +1208,10 @@ var zh_CN_default = {
     },
     recentNotes: {
       title: "\u6700\u8FD1\u7684\u7B14\u8BB0",
-      seeRemainingMore: ({ remaining }) => `\u67E5\u770B\u66F4\u591A${remaining}\u7BC7\u7B14\u8BB0 \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `\u67E5\u770B\u66F4\u591A${remaining}\u7BC7\u7B14\u8BB0 \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `\u5305\u542B${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `\u5305\u542B${targetSlug}`, "transcludeOf"),
       linkToOriginal: "\u6307\u5411\u539F\u59CB\u7B14\u8BB0\u7684\u94FE\u63A5"
     },
     search: {
@@ -1225,13 +1222,13 @@ var zh_CN_default = {
       title: "\u76EE\u5F55"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes}\u5206\u949F\u9605\u8BFB`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes}\u5206\u949F\u9605\u8BFB`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "\u6700\u8FD1\u7684\u7B14\u8BB0",
-      lastFewNotes: ({ count }) => `\u6700\u8FD1\u7684${count}\u6761\u7B14\u8BB0`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `\u6700\u8FD1\u7684${count}\u6761\u7B14\u8BB0`, "lastFewNotes")
     },
     error: {
       title: "\u65E0\u6CD5\u627E\u5230",
@@ -1239,14 +1236,14 @@ var zh_CN_default = {
     },
     folderContent: {
       folder: "\u6587\u4EF6\u5939",
-      itemsUnderFolder: ({ count }) => `\u6B64\u6587\u4EF6\u5939\u4E0B\u6709${count}\u6761\u7B14\u8BB0\u3002`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => `\u6B64\u6587\u4EF6\u5939\u4E0B\u6709${count}\u6761\u7B14\u8BB0\u3002`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "\u6807\u7B7E",
       tagIndex: "\u6807\u7B7E\u7D22\u5F15",
-      itemsUnderTag: ({ count }) => `\u6B64\u6807\u7B7E\u4E0B\u6709${count}\u6761\u7B14\u8BB0\u3002`,
-      showingFirst: ({ count }) => `\u663E\u793A\u524D${count}\u4E2A\u6807\u7B7E\u3002`,
-      totalTags: ({ count }) => `\u603B\u5171\u6709${count}\u4E2A\u6807\u7B7E\u3002`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => `\u6B64\u6807\u7B7E\u4E0B\u6709${count}\u6761\u7B14\u8BB0\u3002`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `\u663E\u793A\u524D${count}\u4E2A\u6807\u7B7E\u3002`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `\u603B\u5171\u6709${count}\u4E2A\u6807\u7B7E\u3002`, "totalTags")
     }
   }
 };
@@ -1292,10 +1289,10 @@ var vi_VN_default = {
     },
     recentNotes: {
       title: "B\xE0i vi\u1EBFt g\u1EA7n \u0111\xE2y",
-      seeRemainingMore: ({ remaining }) => `Xem ${remaining} th\xEAm \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `Xem ${remaining} th\xEAm \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Bao g\u1ED3m ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Bao g\u1ED3m ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Li\xEAn K\u1EBFt G\u1ED1c"
     },
     search: {
@@ -1306,13 +1303,13 @@ var vi_VN_default = {
       title: "B\u1EA3ng N\u1ED9i Dung"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `\u0111\u1ECDc ${minutes} ph\xFAt`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `\u0111\u1ECDc ${minutes} ph\xFAt`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Nh\u1EEFng b\xE0i g\u1EA7n \u0111\xE2y",
-      lastFewNotes: ({ count }) => `${count} B\xE0i g\u1EA7n \u0111\xE2y`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `${count} B\xE0i g\u1EA7n \u0111\xE2y`, "lastFewNotes")
     },
     error: {
       title: "Kh\xF4ng T\xECm Th\u1EA5y",
@@ -1320,14 +1317,14 @@ var vi_VN_default = {
     },
     folderContent: {
       folder: "Th\u01B0 M\u1EE5c",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 m\u1EE5c trong th\u01B0 m\u1EE5c n\xE0y." : `${count} m\u1EE5c trong th\u01B0 m\u1EE5c n\xE0y.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 m\u1EE5c trong th\u01B0 m\u1EE5c n\xE0y." : `${count} m\u1EE5c trong th\u01B0 m\u1EE5c n\xE0y.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "Th\u1EBB",
       tagIndex: "Th\u1EBB M\u1EE5c L\u1EE5c",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 m\u1EE5c g\u1EAFn th\u1EBB n\xE0y." : `${count} m\u1EE5c g\u1EAFn th\u1EBB n\xE0y.`,
-      showingFirst: ({ count }) => `Hi\u1EC3n th\u1ECB tr\u01B0\u1EDBc ${count} th\u1EBB.`,
-      totalTags: ({ count }) => `T\xECm th\u1EA5y ${count} th\u1EBB t\u1ED5ng c\u1ED9ng.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 m\u1EE5c g\u1EAFn th\u1EBB n\xE0y." : `${count} m\u1EE5c g\u1EAFn th\u1EBB n\xE0y.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Hi\u1EC3n th\u1ECB tr\u01B0\u1EDBc ${count} th\u1EBB.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `T\xECm th\u1EA5y ${count} th\u1EBB t\u1ED5ng c\u1ED9ng.`, "totalTags")
     }
   }
 };
@@ -1373,10 +1370,10 @@ var pt_BR_default = {
     },
     recentNotes: {
       title: "Notas recentes",
-      seeRemainingMore: ({ remaining }) => `Veja mais ${remaining} \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `Veja mais ${remaining} \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Transcrever de ${targetSlug}`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `Transcrever de ${targetSlug}`, "transcludeOf"),
       linkToOriginal: "Link ao original"
     },
     search: {
@@ -1387,13 +1384,13 @@ var pt_BR_default = {
       title: "Sum\xE1rio"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `Leitura de ${minutes} min`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `Leitura de ${minutes} min`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Notas recentes",
-      lastFewNotes: ({ count }) => `\xDAltimas ${count} notas`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `\xDAltimas ${count} notas`, "lastFewNotes")
     },
     error: {
       title: "N\xE3o encontrado",
@@ -1401,14 +1398,14 @@ var pt_BR_default = {
     },
     folderContent: {
       folder: "Arquivo",
-      itemsUnderFolder: ({ count }) => count === 1 ? "1 item mneste arquivo." : `${count} items neste arquivo.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 item mneste arquivo." : `${count} items neste arquivo.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "Tag",
       tagIndex: "Sum\xE1rio de Tags",
-      itemsUnderTag: ({ count }) => count === 1 ? "1 item com esta tag." : `${count} items com esta tag.`,
-      showingFirst: ({ count }) => `Mostrando as ${count} primeiras tags.`,
-      totalTags: ({ count }) => `Encontradas ${count} tags.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => count === 1 ? "1 item com esta tag." : `${count} items com esta tag.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Mostrando as ${count} primeiras tags.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `Encontradas ${count} tags.`, "totalTags")
     }
   }
 };
@@ -1454,10 +1451,10 @@ var hu_HU_default = {
     },
     recentNotes: {
       title: "Legut\xF3bbi jegyzetek",
-      seeRemainingMore: ({ remaining }) => `${remaining} tov\xE1bbi megtekint\xE9se \u2192`
+      seeRemainingMore: /* @__PURE__ */ __name(({ remaining }) => `${remaining} tov\xE1bbi megtekint\xE9se \u2192`, "seeRemainingMore")
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `${targetSlug} \xE1thivatkoz\xE1sa`,
+      transcludeOf: /* @__PURE__ */ __name(({ targetSlug }) => `${targetSlug} \xE1thivatkoz\xE1sa`, "transcludeOf"),
       linkToOriginal: "Hivatkoz\xE1s az eredetire"
     },
     search: {
@@ -1468,13 +1465,13 @@ var hu_HU_default = {
       title: "Tartalomjegyz\xE9k"
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} perces olvas\xE1s`
+      readingTime: /* @__PURE__ */ __name(({ minutes }) => `${minutes} perces olvas\xE1s`, "readingTime")
     }
   },
   pages: {
     rss: {
       recentNotes: "Legut\xF3bbi jegyzetek",
-      lastFewNotes: ({ count }) => `Legut\xF3bbi ${count} jegyzet`
+      lastFewNotes: /* @__PURE__ */ __name(({ count }) => `Legut\xF3bbi ${count} jegyzet`, "lastFewNotes")
     },
     error: {
       title: "Nem tal\xE1lhat\xF3",
@@ -1482,14 +1479,14 @@ var hu_HU_default = {
     },
     folderContent: {
       folder: "Mappa",
-      itemsUnderFolder: ({ count }) => `Ebben a mapp\xE1ban ${count} elem tal\xE1lhat\xF3.`
+      itemsUnderFolder: /* @__PURE__ */ __name(({ count }) => `Ebben a mapp\xE1ban ${count} elem tal\xE1lhat\xF3.`, "itemsUnderFolder")
     },
     tagContent: {
       tag: "C\xEDmke",
       tagIndex: "C\xEDmke index",
-      itemsUnderTag: ({ count }) => `${count} elem tal\xE1lhat\xF3 ezzel a c\xEDmk\xE9vel.`,
-      showingFirst: ({ count }) => `Els\u0151 ${count} c\xEDmke megjelen\xEDtve.`,
-      totalTags: ({ count }) => `\xD6sszesen ${count} c\xEDmke tal\xE1lhat\xF3.`
+      itemsUnderTag: /* @__PURE__ */ __name(({ count }) => `${count} elem tal\xE1lhat\xF3 ezzel a c\xEDmk\xE9vel.`, "itemsUnderTag"),
+      showingFirst: /* @__PURE__ */ __name(({ count }) => `Els\u0151 ${count} c\xEDmke megjelen\xEDtve.`, "showingFirst"),
+      totalTags: /* @__PURE__ */ __name(({ count }) => `\xD6sszesen ${count} c\xEDmke tal\xE1lhat\xF3.`, "totalTags")
     }
   }
 };
@@ -1544,14 +1541,12 @@ var defaultOptions = {
 };
 function coalesceAliases(data, aliases) {
   for (const alias of aliases) {
-    if (data[alias] !== void 0 && data[alias] !== null)
-      return data[alias];
+    if (data[alias] !== void 0 && data[alias] !== null) return data[alias];
   }
 }
 __name(coalesceAliases, "coalesceAliases");
 function coerceToArray(input) {
-  if (input === void 0 || input === null)
-    return void 0;
+  if (input === void 0 || input === null) return void 0;
   if (!Array.isArray(input)) {
     input = input.toString().split(",").map((tag) => tag.trim());
   }
@@ -1570,8 +1565,8 @@ var FrontMatter = /* @__PURE__ */ __name((userOpts) => {
             const { data } = matter(Buffer.from(file.value), {
               ...opts,
               engines: {
-                yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }),
-                toml: (s) => toml.parse(s)
+                yaml: /* @__PURE__ */ __name((s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }), "yaml"),
+                toml: /* @__PURE__ */ __name((s) => toml.parse(s), "toml")
               }
             });
             if (data.title != null && data.title.toString() !== "") {
@@ -1580,14 +1575,11 @@ var FrontMatter = /* @__PURE__ */ __name((userOpts) => {
               data.title = file.stem ?? i18n(cfg.configuration.locale).propertyDefaults.title;
             }
             const tags = coerceToArray(coalesceAliases(data, ["tags", "tag"]));
-            if (tags)
-              data.tags = [...new Set(tags.map((tag) => slugTag(tag)))];
+            if (tags) data.tags = [...new Set(tags.map((tag) => slugTag(tag)))];
             const aliases = coerceToArray(coalesceAliases(data, ["aliases", "alias"]));
-            if (aliases)
-              data.aliases = aliases;
+            if (aliases) data.aliases = aliases;
             const cssclasses = coerceToArray(coalesceAliases(data, ["cssclasses", "cssclass"]));
-            if (cssclasses)
-              data.cssclasses = cssclasses;
+            if (cssclasses) data.cssclasses = cssclasses;
             file.data.frontmatter = data;
           };
         }
@@ -1832,8 +1824,7 @@ var Description = /* @__PURE__ */ __name((userOpts) => {
               const firstSentence = sentences[0].split(" ");
               while (currentDescriptionLength < len) {
                 const sentence = firstSentence[sentenceIdx];
-                if (!sentence)
-                  break;
+                if (!sentence) break;
                 finalDesc.push(sentence);
                 currentDescriptionLength += sentence.length;
                 sentenceIdx++;
@@ -1842,8 +1833,7 @@ var Description = /* @__PURE__ */ __name((userOpts) => {
             } else {
               while (currentDescriptionLength < len) {
                 const sentence = sentences[sentenceIdx];
-                if (!sentence)
-                  break;
+                if (!sentence) break;
                 const currentSentence = sentence.endsWith(".") ? sentence : sentence + ".";
                 finalDesc.push(currentSentence);
                 currentDescriptionLength += currentSentence.length;
@@ -2217,8 +2207,7 @@ var ObsidianFlavoredMarkdown = /* @__PURE__ */ __name((userOpts) => {
               arrowRegex,
               (value, ..._capture) => {
                 const maybeArrow = arrowMapping[value];
-                if (maybeArrow === void 0)
-                  return SKIP;
+                if (maybeArrow === void 0) return SKIP;
                 return {
                   type: "html",
                   value: `<span>${maybeArrow}</span>`
@@ -2431,8 +2420,7 @@ var ObsidianFlavoredMarkdown = /* @__PURE__ */ __name((userOpts) => {
                       let idx = (index ?? 1) - 1;
                       while (idx >= 0) {
                         const element = parent?.children.at(idx);
-                        if (!element)
-                          break;
+                        if (!element) break;
                         if (element.type !== "element") {
                           idx -= 1;
                         } else {
@@ -2860,8 +2848,7 @@ function renderPage(cfg, slug, componentData, components, pageResources2) {
           let startDepth = void 0;
           let endIdx = void 0;
           for (const [i, el] of page.htmlAst.children.entries()) {
-            if (!(el.type === "element" && el.tagName.match(headerRegex)))
-              continue;
+            if (!(el.type === "element" && el.tagName.match(headerRegex))) continue;
             const depth = Number(el.tagName.substring(1));
             if (startIdx === void 0 || startDepth === void 0) {
               if (el.properties?.id === blockRef) {
@@ -2998,7 +2985,7 @@ __name(trace, "trace");
 // quartz/util/jsx.tsx
 import { jsx as jsx6 } from "preact/jsx-runtime";
 var customComponents = {
-  table: (props) => /* @__PURE__ */ jsx6("div", { class: "table-container", children: /* @__PURE__ */ jsx6("table", { ...props }) })
+  table: /* @__PURE__ */ __name((props) => /* @__PURE__ */ jsx6("div", { class: "table-container", children: /* @__PURE__ */ jsx6("table", { ...props }) }), "table")
 };
 function htmlToJsx(fp, tree) {
   try {
@@ -3676,10 +3663,10 @@ var defaultOptions12 = {
   folderClickBehavior: "collapse",
   folderDefaultState: "collapsed",
   useSavedState: true,
-  mapFn: (node) => {
+  mapFn: /* @__PURE__ */ __name((node) => {
     return node;
-  },
-  sortFn: (a, b) => {
+  }, "mapFn"),
+  sortFn: /* @__PURE__ */ __name((a, b) => {
     if (!a.file && !b.file || a.file && b.file) {
       return a.displayName.localeCompare(b.displayName, void 0, {
         numeric: true,
@@ -3691,8 +3678,8 @@ var defaultOptions12 = {
     } else {
       return -1;
     }
-  },
-  filterFn: (node) => node.name !== "tags",
+  }, "sortFn"),
+  filterFn: /* @__PURE__ */ __name((node) => node.name !== "tags", "filterFn"),
   order: ["filter", "map", "sort"]
 };
 var Explorer_default = /* @__PURE__ */ __name((userOpts) => {
@@ -4771,7 +4758,7 @@ var ContentIndex = /* @__PURE__ */ __name((opts) => {
       );
       return emitted;
     },
-    getQuartzComponents: () => []
+    getQuartzComponents: /* @__PURE__ */ __name(() => [], "getQuartzComponents")
   };
 }, "ContentIndex");
 
@@ -5221,14 +5208,14 @@ import chalk4 from "chalk";
 // quartz.config.ts
 var config = {
   configuration: {
-    pageTitle: "Mitch's braindump",
+    pageTitle: "\u{1F9E0}\u{1F4DA} Mitch's Mind Tangle",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible"
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    // baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "Templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
