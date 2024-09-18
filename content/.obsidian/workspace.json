@@ -4,50 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "ec5e90dc7ab63ec2",
+        "id": "3e21cb42c0725a97",
         "type": "tabs",
         "children": [
           {
-            "id": "6452a44b497b2cc0",
+            "id": "7c40f3e09bd62377",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/202409172236.md",
+                "file": "Braindump/notes/202409172306.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "57a50636e083fa7f",
+            "id": "e8204d9ebd61aaf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/202409172242.md",
+                "file": "202409181256.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "048fb461ad166f36",
+            "id": "60e7340e3d11b921",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/20231220133911-topology.md",
+                "file": "202409181314.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Braindump/notes/20231220133911-topology.md"
+                "file": "202409181256.md"
               }
             }
           },
@@ -134,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Braindump/notes/20231220133911-topology.md",
+                "file": "202409181256.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Braindump/notes/20231220133911-topology.md",
+                "file": "202409181256.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,6 +164,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -176,14 +174,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "048fb461ad166f36",
+  "active": "e8204d9ebd61aaf0",
   "lastOpenFiles": [
-    "Braindump/Literature/@smith2022.md",
-    "Braindump/Literature/@hayek1978a.md",
+    "Braindump/notes/202409181251.md",
+    "202409181314.md",
+    "202409181256.md",
     "Braindump/notes/202409172306.md",
     "Braindump/notes/202409172236.md",
-    "Braindump/notes/202404171457.md",
     "Braindump/notes/202409172242.md",
+    "Braindump/notes/20231220133911-topology.md",
+    "Braindump/Literature/@smith2022.md",
+    "Braindump/Literature/@hayek1978a.md",
+    "Braindump/notes/202404171457.md",
     "Braindump/Literature/202409172252.md",
     "Braindump/notes/202404171508.md",
     "Braindump/notes/202409161019.md",
@@ -200,10 +202,6 @@
     "Braindump/notes/202409171519.md",
     "202407240948.md",
     "Braindump/notes/202409162145.md",
-    "Braindump/notes/202409161007.md",
-    "Braindump/notes/202405091423.md",
-    "Braindump/notes/202405091524.md",
-    "Braindump/notes/202403092121.md",
     "banner.webp",
     "notes/Pasted image 20230616215727.png",
     "Templates",
