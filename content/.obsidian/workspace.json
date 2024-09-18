@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f571580560cfdd9",
+        "id": "ec5e90dc7ab63ec2",
         "type": "tabs",
         "children": [
           {
-            "id": "e347baa3da2bc90a",
+            "id": "6452a44b497b2cc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202409162212.md",
+                "file": "Braindump/notes/202409172236.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "86fd57919473366b",
+            "id": "57a50636e083fa7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/20231102212616-math.md",
+                "file": "Braindump/notes/202409172242.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,32 +34,20 @@
             }
           },
           {
-            "id": "ed6ce487443b9d4a",
+            "id": "048fb461ad166f36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braindump/notes/202409161020.md",
+                "file": "Braindump/notes/20231220133911-topology.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0e6ea03cb3ffb9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/202409161019.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "202409162212.md"
+                "file": "Braindump/notes/20231220133911-topology.md"
               }
             }
           },
@@ -146,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202409162212.md",
+                "file": "Braindump/notes/20231220133911-topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202409162212.md",
+                "file": "Braindump/notes/20231220133911-topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,44 +167,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "e347baa3da2bc90a",
+  "active": "048fb461ad166f36",
   "lastOpenFiles": [
-    "202409162200.md",
-    "202409162212.md",
-    "202409162208.md",
-    "Braindump/notes/20231102212616-math.md",
-    "Braindump/notes/202409161020.md",
+    "Braindump/Literature/@smith2022.md",
+    "Braindump/Literature/@hayek1978a.md",
+    "Braindump/notes/202409172306.md",
+    "Braindump/notes/202409172236.md",
+    "Braindump/notes/202404171457.md",
+    "Braindump/notes/202409172242.md",
+    "Braindump/Literature/202409172252.md",
+    "Braindump/notes/202404171508.md",
     "Braindump/notes/202409161019.md",
+    "Braindump/notes/202404301418.md",
+    "Braindump/notes/202409162200.md",
+    "Braindump/notes/202409171525.md",
+    "Braindump/notes/202409162212.md",
+    "Templates/com_diagram.md",
+    "Braindump/notes/202409162208.md",
+    "Braindump/notes/202409161020.md",
+    "Braindump/notes/202409171523.md",
+    "Braindump/notes/202406031350.md",
+    "Braindump/notes/20231102212616-math.md",
+    "Braindump/notes/202409171519.md",
     "202407240948.md",
     "Braindump/notes/202409162145.md",
     "Braindump/notes/202409161007.md",
     "Braindump/notes/202405091423.md",
     "Braindump/notes/202405091524.md",
     "Braindump/notes/202403092121.md",
-    "202409161006.md",
-    "Braindump/notes/202407240952.md",
-    "202406250734.md",
-    "202406241439.md",
-    "202406241432.md",
-    "Braindump/notes/202404061628.md",
-    "Braindump/notes/202405231409.md",
-    "Braindump/notes/202406241427.md",
-    "Braindump/notes/202405222331.md",
-    "Braindump/notes/202407082223.md",
-    "Braindump/notes/202403291458.md",
-    "Braindump/notes/202405021637.md",
-    "Braindump/notes/202407101431.md",
-    "Braindump/notes/202407172015.md",
     "banner.webp",
     "notes/Pasted image 20230616215727.png",
     "Templates",

@@ -1,5 +1,6 @@
 ```tikz
 \usepackage{tikz-cd}
+\usepackage{amsmath}
 
 \tikzcdset{scale cd/.style={every label/.append style={scale=#1},
     cells={nodes={scale=#1}}}}
