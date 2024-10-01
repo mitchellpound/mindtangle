@@ -1,7 +1,6 @@
 ---
 title: Welcome to My Brain (as it currently is recorded)
 ---
-
 ![[banner.webp]]
 If you stumble across this somehow, welcome!
 

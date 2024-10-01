@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2d8908c776d3e49b",
+        "id": "23764d4af55cfba5",
         "type": "tabs",
         "children": [
           {
-            "id": "4e9cc24080629d17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/MATH 6380/202409302318.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "257cab0ebd29b2c7",
+            "id": "bd0d3b5291ba389e",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
@@ -29,20 +16,14 @@
             }
           },
           {
-            "id": "01fe6d5ce88b182e",
+            "id": "a4558abf94f7d54c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/MATH 6380/202409302325.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,6 +139,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,42 +150,48 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "257cab0ebd29b2c7",
+  "active": "bd0d3b5291ba389e",
   "lastOpenFiles": [
-    "Braindump/notes/MATH 6380/202409302325.md",
-    "Braindump/notes/MATH 6380/202409302318.md",
-    "Braindump/notes/MATH 6380/202409301254.md",
-    "Braindump/notes/MATH 6380/202409302304.md",
-    "202409302255.md",
-    "202409302303.md",
-    "Templates/new_zettle.md",
-    "Braindump/notes/MATH 6380/202409302255.md",
-    "Braindump/notes/202409191335.md",
-    "Braindump/notes/202404162325.md",
-    "Braindump/notes/202405081540.md",
-    "202406151201.md",
-    "Braindump/notes/MATH 6380",
-    "Braindump/notes/TRIAL/202409302200.md",
-    "Braindump/notes/TRIAL",
-    "Braindump/notes/202409301257.md",
-    "Braindump/notes/202409172306.md",
-    "Braindump/notes/202403251438.md",
-    "Braindump/notes/202409172236.md",
-    "202406241439.md",
-    "Braindump/Literature/@weinstein1983.md",
-    "Braindump/notes/202406141105.md",
-    "Braindump/notes/202409182227.md",
-    "Braindump/notes/202409162200.md",
-    "Braindump/notes/202409181314.md",
-    "Braindump/notes/202409182055.md",
-    "Braindump/notes/202409162212.md",
-    "Braindump/notes/202409171525.md",
+    "Math/20231102212616-math.md",
+    "index.md",
+    "202306190913.md",
+    "202306232151.md",
     "banner.webp",
-    "notes/Pasted image 20230616215727.png",
-    "Templates",
-    "Ideas/Pasted image 20230616215727.png",
-    "Untitled.canvas",
+    "Stats/Pasted image 20230616215727.png",
+    "Math/20240214111633-distribution_of_random_variable.md",
+    "Math/20240214111930-cumulative_distribution_function.md",
+    "Math/20240113170106-open_map.md",
+    "Math/20231222094707-smooth_manifold.md",
+    "Math/20231205120641-measure_theory.md",
+    "Stats/Bayesian/20231104210839-approximate_bayesian_computation_abc.md",
+    "Economics/Finance/20231104212210-ohmc_with_approx_bayesian_comp.md",
+    "Economics/Finance/20231102214208-subjective_ohmc.md",
+    "Stats/Bayesian/20231103064258-bayesian_statistics.md",
+    "Math/202405281152.md",
+    "Math/202403052130.md",
+    "Economics/202307111046.md",
+    "Economics/202307111057.md",
+    "Economics/202307111053.md",
+    "Economics/202306281649.md",
+    "202306291706.md",
+    "Economics/202306281713.md",
+    "Economics/202306221038.md",
+    "202305202142.md",
+    "Stats/202306210924.md",
+    "Stats/202306210955.md",
+    "Stats/Bayesian/202306210916.md",
+    "Math",
+    "Abelianization",
+    "Stats/Bayesian",
+    "Stats",
+    "Stats/Time series",
+    "Economics/Finance",
+    "Economics",
+    "MATH 6380",
     "Literature",
-    "Ideas"
+    "notes/Pasted image 20230616215727.png",
+    "notes/MATH 6380",
+    "Ideas/Pasted image 20230616215727.png",
+    "Untitled.canvas"
   ]
 }
