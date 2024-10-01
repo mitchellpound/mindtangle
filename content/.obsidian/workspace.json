@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "de47adef6038ecb8",
+        "id": "2d8908c776d3e49b",
         "type": "tabs",
         "children": [
           {
-            "id": "69de7fa4660b29bc",
+            "id": "4e9cc24080629d17",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/202409191335.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1674580e6756e1b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/202404162325.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99f45d3f88ac920f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202409301254.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ccb32ef4d0948a3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Braindump/notes/202405081540.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45abd3e8a346aa17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202409301254.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "202409301254.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202409301254.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202409301254.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,23 +131,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "45abd3e8a346aa17",
+  "active": "4e9cc24080629d17",
   "lastOpenFiles": [
-    "Braindump/notes/202409301257.md",
-    "Braindump/notes/202405081540.md",
-    "202409301254.md",
-    "Braindump/notes/202404162325.md",
     "Braindump/notes/202409191335.md",
+    "Braindump/notes/202404162325.md",
+    "202409301254.md",
+    "Braindump/notes/202405081540.md",
+    "202406151201.md",
+    "Braindump/notes/MATH 6380",
+    "Braindump/notes/TRIAL/202409302200.md",
+    "Braindump/notes/TRIAL",
+    "Untitled.md",
+    "Braindump/notes/202409301257.md",
     "Braindump/notes/202409172306.md",
     "Braindump/notes/202403251438.md",
     "Braindump/notes/202409172236.md",
@@ -222,10 +170,6 @@
     "Braindump/notes/202409181251.md",
     "Braindump/notes/202409172242.md",
     "Braindump/notes/20231220133911-topology.md",
-    "Braindump/Literature/@smith2022.md",
-    "Braindump/Literature/@hayek1978a.md",
-    "Braindump/notes/202404171457.md",
-    "Braindump/Literature/202409172252.md",
     "banner.webp",
     "notes/Pasted image 20230616215727.png",
     "Templates",
