@@ -11,11 +11,38 @@
             "id": "4e9cc24080629d17",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "Braindump/notes/MATH 6380/202409302318.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "257cab0ebd29b2c7",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "01fe6d5ce88b182e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Braindump/notes/MATH 6380/202409302325.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,17 +168,23 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "4e9cc24080629d17",
+  "active": "257cab0ebd29b2c7",
   "lastOpenFiles": [
+    "Braindump/notes/MATH 6380/202409302325.md",
+    "Braindump/notes/MATH 6380/202409302318.md",
+    "Braindump/notes/MATH 6380/202409301254.md",
+    "Braindump/notes/MATH 6380/202409302304.md",
+    "202409302255.md",
+    "202409302303.md",
+    "Templates/new_zettle.md",
+    "Braindump/notes/MATH 6380/202409302255.md",
     "Braindump/notes/202409191335.md",
     "Braindump/notes/202404162325.md",
-    "202409301254.md",
     "Braindump/notes/202405081540.md",
     "202406151201.md",
     "Braindump/notes/MATH 6380",
     "Braindump/notes/TRIAL/202409302200.md",
     "Braindump/notes/TRIAL",
-    "Untitled.md",
     "Braindump/notes/202409301257.md",
     "Braindump/notes/202409172306.md",
     "Braindump/notes/202403251438.md",
@@ -165,11 +198,6 @@
     "Braindump/notes/202409182055.md",
     "Braindump/notes/202409162212.md",
     "Braindump/notes/202409171525.md",
-    "Braindump/notes/202409161019.md",
-    "Braindump/notes/202409181256.md",
-    "Braindump/notes/202409181251.md",
-    "Braindump/notes/202409172242.md",
-    "Braindump/notes/20231220133911-topology.md",
     "banner.webp",
     "notes/Pasted image 20230616215727.png",
     "Templates",
