@@ -1,11 +1,11 @@
 .DS_Store
-.gitignore
 node_modules
 public
 prof
 tsconfig.tsbuildinfo
+content/.obsidian/workspace.json
 content/.obsidian
-!content/.obsidian/plugins
+!content/.obsidian/plugins/*
 !content/.obsidian/community-plugins.json
 !content/.obsidian/core-plugins.json
 !content/.obsidian/core-plugins-migration.json
