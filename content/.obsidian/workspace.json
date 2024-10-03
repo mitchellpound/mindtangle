@@ -8,53 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5c1978a807a6ea44",
+            "id": "b23fd3e31a9bd09a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abelianization/202410012130.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "obsidian-projects",
+              "state": {}
             }
           },
           {
-            "id": "7c94daa267305afc",
+            "id": "f97c6cd28566666b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abelianization/202410012200.md",
+                "file": "MATH 6130/202410031425.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f40a1210c4b64987",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abelianization/202410012207.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "acc1bbe99843f329",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abelianization/202410012247.md",
-                "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -63,12 +31,63 @@
             "id": "44107c3b16219f23",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MATH 6130/202410031424.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9836ca67a3092e29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 6380/202410031412.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a7100067665eb6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 6380/202410031405.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbe62866af237605",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 6380/202410031404.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fde18cfdd0405422",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 6130/202410031424.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,6 +203,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -194,16 +214,26 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "44107c3b16219f23",
+  "active": "b23fd3e31a9bd09a",
   "lastOpenFiles": [
+    "MATH 6130/202410031425.md",
+    "MATH 6130/202410031424.md",
+    "MATH 6130",
+    "MATH 6380/202410031404.md",
+    "MATH 6380/202410031412.md",
+    "MATH 6380/202410031405.md",
+    "Math/202409181256.md",
+    "MATH 6380/202409302318.md",
+    "MATH 6380/202409302304.md",
+    "MATH 6380/202409301254.md",
+    "Abelianization/202410012247.md",
+    "Abelianization/202410012207.md",
+    "Abelianization/202410012200.md",
+    "Abelianization/202410012130.md",
     "Abelianization/202410012306.md",
     "Abelianization/202410012304.md",
-    "Abelianization/202410012130.md",
-    "Abelianization/202410012247.md",
     "Math/20240113171045-quotient_topology.md",
-    "Abelianization/202410012200.md",
     "Literature/@sjamaar1991.md",
-    "Abelianization/202410012207.md",
     "Templates/project_template.md",
     "Templates/new_zettle.md",
     "Abelianization",
@@ -216,15 +246,6 @@
     "Math/20240214111633-distribution_of_random_variable.md",
     "Math/20240214111930-cumulative_distribution_function.md",
     "Math/20240113170106-open_map.md",
-    "Math/20231222094707-smooth_manifold.md",
-    "Math/20231205120641-measure_theory.md",
-    "Stats/Bayesian/20231104210839-approximate_bayesian_computation_abc.md",
-    "Economics/Finance/20231104212210-ohmc_with_approx_bayesian_comp.md",
-    "Economics/Finance/20231102214208-subjective_ohmc.md",
-    "Stats/Bayesian/20231103064258-bayesian_statistics.md",
-    "Math/202405281152.md",
-    "Math/202403052130.md",
-    "Economics/202307111046.md",
     "Math",
     "Abelianization",
     "Stats/Bayesian",
@@ -233,7 +254,6 @@
     "Economics/Finance",
     "Economics",
     "MATH 6380",
-    "Literature",
     "notes/Pasted image 20230616215727.png",
     "Ideas/Pasted image 20230616215727.png",
     "Untitled.canvas"
