@@ -1,0 +1,195 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "{{date:YYYYMMDD}}{{time:HHmm}}",
+      "templates": [
+        "Templates/project_template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "MATH 6380",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "title",
+              "name",
+              "path",
+              "draft",
+              "status",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f504fb14-b030-4bd0-a689-b62e93c8cc3d",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "includeFields": [
+              "title"
+            ],
+            "columns": {
+              "Not started": {
+                "weight": 0
+              },
+              "In progress": {
+                "weight": 1,
+                "records": [
+                  "MATH 6380/202409301254.md",
+                  "MATH 6380/202410021257.md"
+                ]
+              },
+              "Done": {
+                "weight": 2,
+                "records": [
+                  "MATH 6380/202409302304.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "77247aed-7921-4843-b593-0fda251059b8",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "8e64381f-b531-4b34-b08a-37ec3af68e73",
+      "name": "MATH 6380"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Abelianization",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "767ae30e-5197-45ee-8300-dabfb5d98d61",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "0bc142a6-55b2-4005-9c2d-73efda9d5cb7",
+      "name": "Symplectic Abelianization Project"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "{{date:YYYYMMDD}}{{time:HHmm}}",
+      "templates": [
+        "Templates/project_template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "MATH 6130",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "baec35ee-a80d-45ae-b777-474d9b336d56",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "includeFields": [
+              "title"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c07371b8-22a1-4195-a065-fd39463b5366",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "c30157dd-8317-4598-8964-6b7f6601d340",
+      "name": "MATH 6130"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

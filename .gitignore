@@ -3,12 +3,21 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-/content/.obsidian/workspace.json
-/content/.obsidian
-/!content/.obsidian/plugins/*
-/!content/.obsidian/community-plugins.json
-/!content/.obsidian/core-plugins.json
-/!content/.obsidian/core-plugins-migration.json
+# Ignore all files in content/.obsidian/
+content/.obsidian/*
+
+# Don't ignore the subdirectories and their contents
+!content/.obsidian/plugins/
+!content/.obsidian/plugins/**
+!content/.obsidian/themes/
+!content/.obsidian/themes/*
+
+!content/.obsidian/core-plugins.json
+!content/.obsidian/community-plugins.json
+!content/.obsidian/core-plugins-migration.json
+!content/.obsidian/hotkeys.json
+!content/.obsidian/.vimrc
+
 private/
 .replit
 replit.nix
