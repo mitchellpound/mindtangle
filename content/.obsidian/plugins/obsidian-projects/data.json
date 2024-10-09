@@ -60,8 +60,11 @@
                   "MATH 6380/202410021257.md"
                 ]
               },
+              "Cleanup": {
+                "weight": 2
+              },
               "Done": {
-                "weight": 2,
+                "weight": 3,
                 "records": [
                   "MATH 6380/202409302304.md"
                 ]
@@ -102,7 +105,28 @@
       "newNotesFolder": "",
       "views": [
         {
-          "config": {},
+          "config": {
+            "orderFields": [
+              "name",
+              "title",
+              "status",
+              "path",
+              "alias",
+              "draft",
+              "tags"
+            ],
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "alias": {
+                "hide": true
+              },
+              "draft": {
+                "hide": true
+              }
+            }
+          },
           "filter": {
             "conjunction": "and",
             "conditions": []
@@ -116,6 +140,38 @@
           "id": "767ae30e-5197-45ee-8300-dabfb5d98d61",
           "name": "Table",
           "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "includeFields": [
+              "title"
+            ],
+            "columns": {
+              "Not started": {
+                "weight": 0
+              },
+              "Cleanup": {
+                "weight": 1
+              },
+              "In progress": {
+                "weight": 2
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "061847f2-de1b-4123-9a0f-e0ed58f0cdc6",
+          "name": "Board",
+          "type": "board"
         }
       ],
       "id": "0bc142a6-55b2-4005-9c2d-73efda9d5cb7",
