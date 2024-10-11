@@ -51,13 +51,23 @@
             ],
             "columns": {
               "Not started": {
-                "weight": 0
+                "weight": 0,
+                "records": [
+                  "MATH 6380/202409302325.md",
+                  "MATH 6380/202410031404.md",
+                  "MATH 6380/202410091156.md"
+                ]
               },
               "In progress": {
                 "weight": 1,
                 "records": [
                   "MATH 6380/202409301254.md",
-                  "MATH 6380/202410021257.md"
+                  "MATH 6380/202410021257.md",
+                  "MATH 6380/202409181251.md",
+                  "MATH 6380/202409181256.md",
+                  "MATH 6380/202410031405.md",
+                  "MATH 6380/202410031412.md",
+                  "MATH 6380/202410091202.md"
                 ]
               },
               "Cleanup": {
@@ -215,7 +225,18 @@
             "groupByField": "status",
             "includeFields": [
               "title"
-            ]
+            ],
+            "columns": {
+              "Not started": {
+                "weight": 0
+              },
+              "Clean up": {
+                "weight": 1
+              },
+              "Done": {
+                "weight": 2
+              }
+            }
           },
           "filter": {
             "conjunction": "and",
