@@ -230,11 +230,14 @@
               "Not started": {
                 "weight": 0
               },
-              "Clean up": {
+              "In progress": {
                 "weight": 1
               },
-              "Done": {
+              "Clean up": {
                 "weight": 2
+              },
+              "Done": {
+                "weight": 3
               }
             }
           },
