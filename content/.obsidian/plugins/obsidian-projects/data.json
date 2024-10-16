@@ -231,13 +231,24 @@
                 "weight": 0
               },
               "In progress": {
-                "weight": 1
+                "weight": 1,
+                "records": [
+                  "MATH 6130/202410042352.md"
+                ]
               },
               "Clean up": {
-                "weight": 2
+                "weight": 2,
+                "records": [
+                  "MATH 6130/202410160959.md",
+                  "MATH 6130/202410111233.md",
+                  "MATH 6130/202410031425.md"
+                ]
               },
               "Done": {
                 "weight": 3
+              },
+              "Cleanup": {
+                "records": []
               }
             }
           },
